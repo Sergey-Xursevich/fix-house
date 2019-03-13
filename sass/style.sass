@@ -1,0 +1,46 @@
+@import 'var'
+@import 'mixins'
+@import 'normalize'
+@import 'fonts'
+@import 'header'
+@import 'interface'
+@import 'main'
+@import 'feedback'
+@import 'modal'
+@import 'portfolio'
+@import 'reception'
+@import 'price'
+@import 'support'
+@import 'footer'
+@import 'warranty'
+
+
+*, *:after, *:before
+  box-sizing: border-box
+
+body
+  font-family: 'Museo Sans 300 Light', sans-serif
+  color: $text-color
+  overflow-x: hidden
+
+.container
+  width: 1170px
+  margin: 0 auto
+
+img
+  //задаем, чтобы картинка не 
+  //вываливалась за пределы родителя
+  max-width: 100%
+
+.section
+  &-title
+    +bold
+    line-height: 45px
+    &__center
+      text-align: center
+  &-subtitle
+    font-size: 20px
+    text-align: center
+
+
+@import 'media'  

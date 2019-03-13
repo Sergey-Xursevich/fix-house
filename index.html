@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ремонт квартир</title>    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">    
+    <link rel="shortcut icon" type="image/x-icon" href="img/sketch.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-wrap">
+            <div class="header-logo">
+                <img src="img/header-logo.jpg" alt="Ремонт квартир">
+            </div>
+            <!-- /.header-logo -->
+            <div class="header-text">
+                <div class="header-text__contacts">
+                    <span class="header-text__city">Калуга, Москва, МО</span>
+                    <a class="header-text__phone" href="tel:+74954225131">+7 (495) 42-251-31</a>
+                </div>
+                <!-- /.header-text__phone -->
+                <div class="header-text__button">
+                    <button class="button" id="button-callback"><span class="hidden-xs__text">Перезвоните <span class="hidden-xs">мне</span>
+                        </span></button>
+                </div>
+                <!-- /.header-text__button -->
+            </div>
+            <!-- /.header-text -->
+        </div>
+        <!-- /.container header-wrap -->
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="main-wrap">
+                <div class="main-text">
+                    <h1 class="main-text__title">
+                        Внутренняя отделка помещений "под&nbsp;ключ"
+                        <span>с гарантией качества, прописанной в&nbsp;договоре</span>
+                    </h1>
+
+                    <div class="main-advantages">
+                        <div class="main-advantages__item">
+                            <div class="main-advantages__img main-advantages__img-1 wow fadeIn" data-wow-delay="0.2s"></div>
+                            <!-- /.main-advantages__img -->
+                            <div class="main-advantages__text">
+                                Точно соблюдаем сроки
+                            </div>
+                            <!-- /.main-advantages__text -->
+                        </div>
+                        <!-- /.main-advantages__item -->
+
+                        <div class="main-advantages__item">
+                            <div class="main-advantages__img main-advantages__img-2 wow fadeIn" data-wow-delay="0.4s"></div>
+                            <!-- /.main-advantages__img -->
+                            <div class="main-advantages__text">
+                                Рассчитаем смету на работы
+                                и материалы в день обращения
+                            </div>
+                            <!-- /.main-advantages__text -->
+                        </div>
+                        <!-- /.main-advantages__item -->
+
+                        <div class="main-advantages__item">
+                            <div class="main-advantages__img main-advantages__img-3 wow fadeIn" data-wow-delay="0.6s"></div>
+                            <!-- /.main-advantages__img -->
+                            <div class="main-advantages__text">
+                                Предложим более 100 вариантов
+                                исполнения дизайна Вашего жилья
+                            </div>
+                            <!-- /.main-advantages__text -->
+                        </div>
+                        <!-- /.main-advantages__item -->
+                    </div>
+                    <!-- /.main-advantages -->
+                </div>
+                <!-- /.main-text -->
+
+                <div class="main-image wow zoomInDown" data-wow-delay="0.4s">
+                    <img src="img/main/main-img.png" alt="План схема">
+                </div>
+                <!-- /.main-image -->
+
+            </div>
+            <!-- /.main-wrap -->
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <section class="feedback">
+        <div class="container">
+            <div class="form">
+
+                <h2 class="form__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
+                <span class="form__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
+                <form action="mail.php" method="POST" id="js-ajax-1">
+                    <input type="text" name="user_name" class="input input-name form__input" placeholder="Ваше имя" required />
+                    <input type="tel" name="user_phone" class="input input-tel form__input" pattern="^\+?[7][-\(]?\d{3}\)?-?\d{2}-?\d{2}-?\d{3}$" title="+7-XXX-XX-XX-XXX" placeholder="Ваш телефон" required />
+                    <button type="submit" class="button form__button button__submit"><span class="hidden-xs__text">Получить бесплатный дизайн-проект</span> </button>
+                </form>
+
+                <div class="form-manager">
+                    <div class="form-manager__text">
+                        Наш менеджер перезвонит Вам в течение 60 секунд
+                    </div>
+                    <!-- /.form-manager__text -->
+
+                    <div class="form-manager__wrap">
+                        <div class="form-manager__img"></div>
+                        <!-- /.main-advantages__img -->
+                        <div class="form-manager__telephone">
+                            или перезвоните нам сами
+                            <a href="tel:+74954225131" class="form-manager__number">+7 (495) 42-251-31</a>
+                        </div>
+                        <!-- /.form-manager__telephone -->
+                    </div>
+                    <!-- /.form-manager__wrap -->
+                </div>
+                <!-- /.form-manager -->
+
+            </div>
+            <!-- /.form -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-title section-title__center">
+                Работая с 2007 года, <br>
+                мы сделали более 500 ремонтов в квартирах и домах
+            </h2>
+            <div class="owl-carousel owl-theme wow flipInX" data-wow-delay="0.2s">
+                <div class="slider__item">
+                    <img class="slider__img" src="img/portfolio/slider-image-1.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/portfolio/slider-image-2.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/portfolio/slider-image-3.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/portfolio/slider-image-1.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/portfolio/slider-image-2.jpg" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/portfolio/slider-image-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <h2 class="section-title__center section-title">
+                У нас очень гибкая система скидок <br> на комплексные работы! <br>
+                <span class="section-subtitle section-subtitle__price">Прайс на наши услуги</span>
+                <!-- /.section-subtitle -->
+            </h2>
+            <!-- /.section-title_center section-title -->
+
+            <div class="price-wrap">
+
+                <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card__img-wrap">
+                        <img src="img/price/img-1.jpg" alt="" class="card__img">
+                    </div>
+                    <!-- /.card__img-wrap -->
+                    <h4 class="card__title">Ремонт ванных комнат и с/у</h4>
+                    <!-- /.card__title -->
+                    <a href="#" class="card__link">Узнать цены</a>
+                    <!-- /.card__link -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card__img-wrap">
+                        <img src="img/price/img-2.jpg" alt="" class="card__img">
+                    </div>
+                    <h4 class="card__title">Ремонт комнат и квартир</h4>
+                    <!-- /.card__title -->
+                    <a href="#" class="card__link">Узнать цены</a>
+                    <!-- /.card__link -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="card__img-wrap">
+                        <img src="img/price/img-3.jpg" alt="" class="card__img">
+                    </div>
+                    <h4 class="card__title">Отделка офисных помещений</h4>
+                    <!-- /.card__title -->
+                    <a href="#" class="card__link">Узнать цены</a>
+                    <!-- /.card__link -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card__img-wrap">
+                        <img src="img/price/img-4.jpg" alt="" class="card__img">
+                    </div>
+                    <h4 class="card__title">Ремонт в новостройках</h4>
+                    <!-- /.card__title -->
+                    <a href="#" class="card__link">Узнать цены</a>
+                    <!-- /.card__link -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card__img-wrap">
+                        <img src="img/price/img-5.jpg" alt="" class="card__img">
+                    </div>
+                    <h4 class="card__title">Ремонт кухонь</h4>
+                    <!-- /.card__title -->
+                    <a href="#" class="card__link">Узнать цены</a>
+                    <!-- /.card__link -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="card__img-wrap">
+                        <img src="img/price/img-6.jpg" alt="" class="card__img">
+                    </div>
+                    <h4 class="card__title">Ремонт дач и коттеджей</h4>
+                    <!-- /.card__title -->
+                    <a href="#" class="card__link">Узнать цены</a>
+                    <!-- /.card__link -->
+                </div>
+                <!-- /.card -->
+
+            </div>
+            <!-- /.price-wrap -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section class="support">
+        <div class="container">
+            <h2 class="section-title__center section-title">
+                Наши специалисты готовы выехать на замер <br class="section-title__br"> в любое удобное для Вас время <br>
+                <span class="section-subtitle section-subtitle__price">5 шагов до ремонта</span>
+                <!-- /.section-subtitle -->
+            </h2>
+            <!-- /.section-title_center section-title -->
+
+            <div class="support-wrapper">
+                <div class="support-advantages">
+
+
+                    <div class="support-advantages__item">
+                        <div class="support-advantages__img support-advantages__img-1 wow fadeInLeft" data-wow-delay="0.2s"></div>
+                        <!-- /.main-advantages__img -->
+                        <div class="support-advantages__text">
+                            Вы звоните нам <br> или оставляете заявку
+                        </div>
+                        <!-- /.main-advantages__text -->
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__row support-advantages__row-1 wow wobble" data-wow-delay="0.3s">
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__item">
+                        <div class="support-advantages__img support-advantages__img-2 wow fadeInLeft" data-wow-delay="0.4s"></div>
+                        <!-- /.main-advantages__img -->
+                        <div class="support-advantages__text">
+                            Согласуем удобное для Вас время выезда специалиста на замер
+                        </div>
+                        <!-- /.main-advantages__text -->
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__row support-advantages__row-2 wow wobble" data-wow-delay="0.5s">
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__item">
+                        <div class="support-advantages__img support-advantages__img-3 wow fadeInLeft" data-wow-delay="0.6s"></div>
+                        <!-- /.main-advantages__img -->
+                        <div class="support-advantages__text">
+                            Рассчитываем смету согласовываем <br> с Вами
+                        </div>
+                        <!-- /.main-advantages__text -->
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__row support-advantages__row-3 wow wobble" data-wow-delay="0.7s">
+                        </div>
+                        <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__item">
+                        <div class="support-advantages__img support-advantages__img-4 wow fadeInLeft" data-wow-delay="0.8s"></div>
+                        <!-- /.main-advantages__img -->
+                        <div class="support-advantages__text">
+                            Подписываем договор закупаем материал <br> по оптовым ценам
+                        </div>
+                        <!-- /.main-advantages__text -->
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__row support-advantages__row-4 wow wobble" data-wow-delay="0.9s">
+                        </div>
+                        <!-- /.main-advantages__item -->
+
+                    <div class="support-advantages__item">
+                        <div class="support-advantages__img support-advantages__img-5 wow fadeInLeft" data-wow-delay="1.0s"></div>
+                        <!-- /.main-advantages__img -->
+                        <div class="support-advantages__text">
+                            Выполняем ремонт в указанные сроки
+                        </div>
+                        <!-- /.main-advantages__text -->
+                    </div>
+                    <!-- /.main-advantages__item -->
+
+
+                </div>
+                <!-- /.support-advantages -->
+            </div>
+            <!-- /.support-wrapper -->
+
+            <div class="support-footer">
+                <p>
+                    Ремонт обойдется Вам дешевле, так как <br class="support__br">
+                    мы используем качественные материалы по оптовым ценам
+                </p> 
+            </div>
+            <!-- /.section-title__footer -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section class="warranty">
+        <div class="container">
+            <div class="warranty-wrap">
+
+                <div class="warranty__container warranty__container-1">
+                    <div class="warranty__text">
+                        Поможем закупить все материалы <br>
+                        по оптовым ценам у проверенных <br> поставщиков                            
+                    </div>
+                </div>
+
+                <div class="warranty__container warranty__container-2">
+                    <div class="warranty__text">
+                            Мы дадим Вам <span class="warranty__span">максимальные скидки</span><br> 
+                            у наших партнеров для закупки <br> материалов оптом                                                     
+                    </div>
+                </div>
+
+                <div class="warranty__container warranty__container-3">
+                    <div class="warranty__text">
+                            Все, что не сможете найти в городе -
+                            поможем заказать <span class="warranty__span"> у проверенных
+                            поставщиков</span>                              
+                    </div>
+                </div>
+
+            </div>
+            <p class="warranty__header">Все наши гарантийные обязательства <br class="warranty__br"> подробно и прозрачно описаны в договоре</p>
+
+            <div class="warranty-image">
+                <div class="warranty-image__wrap">
+
+                    <div class="wrapper-img">            
+                            <div class="warranty-image__container warranty-image__container-1"></div>
+                            <div class="warranty-image__text">Гарантия на качество <br>выполняемых работ</div>
+                    </div>
+
+                    <div class="wrapper-img">
+                            <div class="warranty-image__container warranty-image__container-2"></div>
+                            <div class="warranty-image__text">Гарантия на фиксированные цены <br>
+                                Виды работ и цены на них прописаны в договоре</div>
+                    </div>
+
+                    <div class="wrapper-img">            
+                            <div class="warranty-image__container warranty-image__container-3"></div>
+                            <div class="warranty-image__text">Гарантия на точное соблюдение сроков и ответственность за их невыполнение</div>
+                    </div>
+
+                </div>                
+            </div>
+
+        </div>
+    </section>
+
+    <section class="reception">
+        <div class="container container-reception">
+            <div class="main-wrap">
+
+                <div class="main-text">
+                    <p class="reception__title">Мы можем озвучить Вам примерную стоимость работы и материалов по
+                        телефону</p>
+                    <p class="reception__subtitle">Для этого нужно ответить на 4 вопроса:</p>
+
+                    <div class="main-text__wrapper">
+                        <div class="main-text__advantages">
+                            <div class="main-text__item main-text__item-1">
+                                <div class="main-text__img main-text__img-1"><span class="main-text__span main-text__span-1">1.</span></div>
+                                <div class="main-text__text">
+                                    Какова площадь помещения?
+                                </div>
+                                <!-- /.main-advantages__text -->
+                            </div>
+                            <!-- /.main-advantages__item -->
+                        </div>
+
+                        <div class="main-text__advantages">
+                            <div class="main-text__item main-text__item-2">
+                                <div class="main-text__img main-text__img-1"><span class="main-text__span main-text__span-2">2.</span></div>
+                                <div class="main-text__text">
+                                    У Вас новостройка или вторичное жилье?
+                                </div>
+                                <!-- /.main-advantages__text -->
+                            </div>
+                            <!-- /.main-advantages__item -->
+                        </div>
+
+                        <div class="main-text__advantages">
+                            <div class="main-text__item main-text__item-3">
+                                <div class="main-text__img main-text__img-1"><span class="main-text__span main-text__span-3">3.</span></div>
+                                <div class="main-text__text">
+                                    Где находится помещение, в котором будет <br class="main-text__br"> производиться ремонт?
+                                </div>
+                                <!-- /.main-advantages__text -->
+                            </div>
+                            <!-- /.main-advantages__item -->
+                        </div>
+
+                        <div class="main-text__advantages">
+                            <div class="main-text__item main-text__item-4">
+                                <div class="main-text__img main-text__img-1"><span class="main-text__span main-text__span-4">4.</span></div>
+                                <div class="main-text__text">
+                                    Назначение помещения?
+                                </div>
+                                <!-- /.main-advantages__text -->
+                            </div>
+                            <!-- /.main-advantages__item -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-form">
+                    <div class="main-form__wrapper">
+                        <p class="main-form__title">Оставьте заявку на бесплатный <br>
+                            расчет ремонта по телефону</p>
+                        <p class="main-form__subtitle">Для этого заполните форму ниже</p>
+                        <form action="mail.php" method="POST" class="main-reception js-ajax-3">
+                            <input type="text" name="user_name-3" class="input input-name reception__input" placeholder="Ваше имя" required>
+                            <input type="tel" name="user_phone-3" class="input input-tel reception__input" pattern="^\+?[7][-\(]?\d{3}\)?-?\d{2}-?\d{2}-?\d{3}$" title="+7-XXX-XX-XX-XXX" placeholder="Ваш телефон" required />
+                            <button type="submit" class="button reception__button"><span class="hidden-xs__text">Рассчитать
+                                    стоимость
+                                </span> </button>
+                        </form>
+                        <p class="main-form__time">Мы перезвоним Вам в течение 60 секунд</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="map">
+            <div id="map"></div>
+        </div>
+        <div class="contacts">
+
+            <div class="contacts-wrapper">
+                <div class="contacts__header">
+                    Приезжайте к нам в гости! <br> <span class="contacts__head">Проконсультируем Вас <br> по всем вопросам ремонта</span> 
+                </div>
+                <div class="contacts__contact-wrapper">
+                    <div class="contacts__contact">
+                        <div class="contacts__image contacts__image-1"></div>
+                        <div class="contacts__text">г. Москва <span class="contacts__span"> ул. Ленина, д. 10, <br>корпус 2, оф. 308</span></div>
+                    </div>
+    
+                    <div class="contacts__contact">
+                            <div class="contacts__image contacts__image-2"></div>
+                            <div class="contacts__text">Режим работы: <span class="contacts__span">с 9:00 до 18:00</span></div>
+                    </div>
+    
+                       <div class="contacts__contact">
+                            <div class="contacts__image contacts__image-3"></div>
+                            <div class="contacts__text">Телефон: <span class="contacts__span">+ 7 (495) 42-251-31</span></div>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <div class="modal modal__hiden" id="modal-callback">
+        <div class="modal__dialog">
+            <div class="modal__close">&#10006;</div>
+            <!-- /.modal__close -->
+            <div class="modal-container modal-container__container-1">
+                <div class="container__wrapper">
+                    <div class="container__proekt">
+                        <div class="container__image">
+                            <img class="container__img" src="https://hursevichsergey.github.io/entry_project/img/model/image-1.jpg"
+                                alt="">
+                        </div>
+
+                        <div class="container__text">
+                            <p class="container__header">Ванная комната</p>
+                            <hr class=container__line>
+                            <p class="container__price">
+                                135*150 <span class="container__span">- 31 000 руб.</span>
+                                170*170 <span class="container__span">- 43 000 руб.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container__proekt">
+                        <div class="container__image">
+                            <img class="container__img" src="https://hursevichsergey.github.io/entry_project/img/model/image-2.jpg"
+                                alt="">
+                        </div>
+
+                        <div class="container__text">
+                            <p class="container__header">Туалет</p>
+                            <hr class=container__line>
+                            <p class="container__price">
+                                135*70 <span class="container__span">- 14 000 руб.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="container__proekt">
+                        <div class="container__image">
+                            <img class="container__img" src="https://hursevichsergey.github.io/entry_project/img/model/image-3.jpg"
+                                alt="">
+                        </div>
+
+                        <div class="container__text">
+                            <p class="container__header">Совмещенный санузел</p>
+                            <hr class=container__line>
+                            <p class="container__price">
+                                170*210 <span class="container__span">- 54 000 руб.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal__description">
+                    <p class="description__header">В стоимость работ входит</p>
+                    <ul class="description__spisok">
+                        <li class="description__opisanie"><span class="description__span"> Демонтаж старого покрытия
+                                стен и пола</span></li>
+                        <li class="description__opisanie"> <span class="description__span">Выравнивание стен гипсовыми
+                                составами</span></li>
+                        <li class="description__opisanie"> <span class="description__span">Грунтовка стен и пола
+                                антисептиком, бетоноконтактом</span></li>
+                        <li class="description__opisanie"> <span class="description__span">Монтаж кафельной плитки на
+                                полу и стенах</span></li>
+                        <li class="description__opisanie"> <span class="description__span">Установка реечного или
+                                натяжного потолка, светильников</span></li>
+                        <li class="description__opisanie"> <span class="description__span">Монтаж двери с коробкой</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.container -->
+            <div class="modal-container modal-container__container-2">
+                <div class="modal-container__wrapper">
+                    <div class="modal-container__header">
+                        Узнайте точную стоимость <br> ремонта по телефону!
+                    </div>
+                    <div class="modal-container__subtitle">
+                        Заполните поля ниже - мы свяжемся с Вами
+                    </div>
+                    <form action="mail2.php" class="js-ajax-2" method="POST">
+                        <input type="text" name="user_name-2" class="input input-name modal-container__input"
+                            placeholder="Ваше имя" required>
+                        <input type="tel" name="user_phone-2" class="input input-tel modal-container__input" pattern="^\+?[7][-\(]?\d{3}\)?-?\d{2}-?\d{2}-?\d{3}$" title="+7-XXX-XX-XX-XXX" placeholder="Ваш телефон" required />
+                        <button type="submit" class="button modal-container__button" id="button-submit"><span class="hidden-xs__text">Узнать
+                                стоимость</span> </button>
+                    </form>
+                    <div class="modal-container__information">
+                        Или Вы можете перезвонить нам сами<br>
+                        по телефону:
+                    </div>
+                    <a class="modal-container__phone" href="tel:+78182425131">+7 (8182) 42-51-31</a>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.modal__dialog -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- Yandex.Metrika counter --> <script > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter51427903 = new Ya.Metrika2({ id:51427903, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/51427903" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ACsACVwBAAAAp1c3ZQIAkYYbGxLjKOmiOjGI14UQdiw5t-QAAAAAAAAAAADrBHZn1RBGjuT4hP9H1WFU2N821A==&lang=ru_RU"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#button-callback').on('click', function () {
+                $('#modal-callback').toggleClass('modal__visible');
+            });
+            $('.modal__close').on('click', function () {
+                $('.modal').toggleClass('modal__visible');
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                nav: true,
+                margin: 25,
+                navText: [
+                    '<img src="https://hursevichsergey.github.io/Project_Website_Verstka_extra/img/portfolio/arow-left.png" alt="" />',
+                    '<img src="https://hursevichsergey.github.io/Project_Website_Verstka_extra/img/portfolio/arow-right.png" alt="" />'
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1180: {
+                        items: 3
+                    }
+                }
+            });
+
+            $('#js-ajax-1').on('submit', function () {
+                var data = $('#js-ajax-1').serialize();
+
+                $.ajax({
+                    url: 'mail2.php',
+                    type: 'POST',
+                    data: 0,
+                    success: function () {
+                        $('[name = user_name]').val('');
+                        $('[name = user_phone]').val('');
+                        if (data == 0) {
+                            alert("Ваше сообщение не отправлено");
+                        } else {
+                            alert("Ваше сообщение успешно отправлено");
+                        }
+                    }
+                })
+                return false;
+            })
+
+            $('.js-ajax-2').on('submit', function () {
+                var data = $('.js-ajax-2').serialize();
+
+                $.ajax({
+                    url: 'mail2.php',
+                    type: 'POST',
+                    data: data,
+                    success: function (data) {
+                        $('[name = user_name-2]').val('');
+                        $('[name = user_phone-2]').val('');
+                        if (data == 0) {
+                            alert("Ваше сообщение не отправлено");
+                        } else {
+                            alert("Ваше сообщение успешно отправлено");
+                        }
+                    }
+                })
+                return false;
+            })
+
+            $('.js-ajax-3').on('submit', function () {
+                var data = $('.js-ajax-3').serialize();
+
+                $.ajax({
+                    url: 'mail2.php',
+                    type: 'POST',
+                    data: data,
+                    success: function (data) {
+                        $('[name = user_name-3]').val('');
+                        $('[name = user_phone-3]').val('');
+                        if (data == 0) {
+                            alert("Ваше сообщение не отправлено");
+                        } else {
+                            alert("Ваше сообщение успешно отправлено");
+                        }
+                    }
+                })
+                return false;
+            })
+        });
+    </script>
+    
+    <script>
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map('map', {
+                center: [55.684099, 37.412313],
+                zoom: 17
+            }, {
+                searchControlProvider: 'yandex#search'
+            }),
+            // Создаём макет содержимого.
+            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+            ),
+            myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                hintContent: 'Собственный значок метки',
+                balloonContent: 'Наш адрес!'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'https://hursevichsergey.github.io/Finally_site-extra//img/footer/pin.png',
+                // Размеры метки.
+                iconImageSize: [62, 62],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [15, -43]
+            }),
+            myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
+                hintContent: 'Собственный значок метки с контентом',
+                balloonContent: 'А эта — новогодняя',
+                iconContent: '12'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#imageWithContent',
+                // Своё изображение иконки метки.
+                //iconImageHref: 'images/ball.png',
+                // Размеры метки.
+                iconImageSize: [48, 48],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-24, -24],
+                // Смещение слоя с содержимым относительно слоя с картинкой.
+                iconContentOffset: [15, 15],
+                // Макет содержимого.
+                iconContentLayout: MyIconContentLayout
+            });
+            myMap.behaviors.disable('scrollZoom');
+        myMap.geoObjects
+            .add(myPlacemark)
+            .add(myPlacemarkWithContent);
+    });
+    </script>
+
+    <script>
+        document.querySelector('#button-callback').addEventListener('click', function(){
+            yaCounter51427903.reachGoal('btn'); return true;
+        });        
+    </script>
+
+    <script>
+        document.querySelector('#button-submit').addEventListener('click', function(){
+            yaCounter51427903.reachGoal('submit'); return true;
+        });        
+    </script>
+
+</body>
+</html>
